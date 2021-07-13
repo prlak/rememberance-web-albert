@@ -1,0 +1,106 @@
+
+
+
+:root
+{
+    --primary-color: #311b1b;
+
+}
+
+body{
+
+    background: #dee0cf;
+    margin: 2em;
+    font-family: 'Times New Roman';
+}
+
+.row
+{
+    padding: 0.5em;
+    
+    .text-center
+    {
+        color: var(--primary-color);
+        text-align: center;
+    }
+
+    h1
+    {   border-color: black;
+        border-width: 1px;
+        color: var(--primary-color);
+        text-align: center;
+    }
+    
+   
+}
+
+.descrp
+{
+    .center
+    {
+        text-align: center;
+        color: var(--primary-color);
+    }
+}
+
+.hero-img
+{
+    width: 70%;
+    margin: 3em;
+    border: 10px pink;
+    border-radius: 20em;
+    margin-left: 5em;
+   
+}
+
+.picture-desp
+{
+    text-align: center;
+    margin-bottom: 5em;
+    margin-top: 0;
+    border: 1px black;
+    position: relative;
+}
+
+.heading
+{
+    font-weight: bold;
+    color: var(--primary-color);
+
+    a
+    {
+        color: var(--primary-color);
+        text-decoration: none;  //to remove the link always put in a
+
+    }
+
+
+    ul.features
+    {
+    margin: 1em;
+    line-height: 2em;
+    
+    }
+
+    .ending
+    {
+        color: purple;
+        border: 1px saddlebrown;
+
+        .final-link a
+        {
+            border: 1px saddlebrown;
+        }
+
+        span
+        {
+            color: red;
+            font-size: bold;
+        }
+    }
+
+    
+}
+
+
+

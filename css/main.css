@@ -1,0 +1,76 @@
+:root {
+  --primary-color: #311b1b;
+}
+
+body {
+  background: #dee0cf;
+  margin: 2em;
+  font-family: 'Times New Roman';
+}
+
+.row {
+  padding: 0.5em;
+}
+
+.row .text-center {
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.row h1 {
+  border-color: black;
+  border-width: 1px;
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.descrp .center {
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.hero-img {
+  width: 70%;
+  margin: 3em;
+  border: 10px pink;
+  border-radius: 20em;
+  margin-left: 5em;
+}
+
+.picture-desp {
+  text-align: center;
+  margin-bottom: 5em;
+  margin-top: 0;
+  border: 1px black;
+  position: relative;
+}
+
+.heading {
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.heading a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.heading ul.features {
+  margin: 1em;
+  line-height: 2em;
+}
+
+.heading .ending {
+  color: purple;
+  border: 1px saddlebrown;
+}
+
+.heading .ending .final-link a {
+  border: 1px saddlebrown;
+}
+
+.heading .ending span {
+  color: red;
+  font-size: bold;
+}
+/*# sourceMappingURL=main.css.map */
